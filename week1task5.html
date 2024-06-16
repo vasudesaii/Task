@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 : Task 5</title>
+	<h1 style="color:lightblue;">Registration Form</h1>
+</head>
+<style>
+	table,tr,td{
+		border:2px solid black;
+		border-collapse:collapse;
+	}
+</style>
+<body>
+    <table>
+		<tr>
+			<td>First Name</td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>e-Mail</td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="Password"></td>
+		</tr>
+		<tr>
+			<td>Re-Enter Password</td>
+			<td><input type="password"></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Gender</td>
+			<td><input type="radio" id="abc" name="one"><label for="abc">Male</label></td>
+		</tr>
+		<tr>
+			<td><input type="radio" id="abc" name="one"><label for="abc">Female</label></td>
+		</tr>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td><input type="number" min="18"></td>
+		</tr>
+		<tr>
+			<td>Phone Number</td>
+			<td><input type="number" min="1000000000"></td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea  cols="20" rows="3"></textarea></td>
+		</tr>
+		<tr>
+			<td>State</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Country</td>
+			<td><select>
+				<option value=""></option>
+				<option value="ind">India</option>
+				<option value="oth">Other</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Languages Known</td>
+			<td>
+				<input type="checkbox">Eng</input>
+				<input type="checkbox">Hin</input>
+				<input type="checkbox">Guj</input>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="checkbox">Hearby I  declare all the info given is correct</input></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align:right;">Log in to <a href="https://ethnus.com" target="_self">Ethnus</a> website</td>
+		</tr>
+	</table>
+</body>
+</html>
